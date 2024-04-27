@@ -1,0 +1,66 @@
+.header {
+  margin: 0;
+  background-color: light-dark(#e6757d, #8644a2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #ffebb2;
+}
+
+.mainSection {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.user {
+  color: #8acdd7;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
+  border-radius: var(--mantine-radius-sm);
+  transition: #8acdd7 100ms ease;
+
+  &:hover {
+    background-color: #ffebb2;
+  }
+}
+
+.userActive {
+  background-color: light-dark(#e6757d, #8644a2);
+}
+
+.link {
+  text-decoration: none;
+  color: #e6757d;
+}
+
+.avatar {
+  margin: 0 0.5rem;
+}
+
+.tabsList {
+  &::before {
+    display: none;
+  }
+}
+
+.tab {
+  font-weight: 500;
+  height: rem(38);
+  background-color: #ffebb2;
+  position: relative;
+  bottom: -11px;
+  &::before,
+  &::after {
+    background-color: #8acdd7;
+  }
+
+  &:hover {
+    background-color: light-dark(#8644a2, #e6757d);
+  }
+}
+
+.userIcon {
+  display: flex;
+  align-items: center;
+}
