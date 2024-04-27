@@ -1,0 +1,37 @@
+.cartCtn {
+  border-bottom: 1px solid black;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0rem 0rem 0rem 2rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartImg {
+  width: 15rem;
+  height: 8rem;
+}
+
+.textCtn {
+  margin-left: 2rem;
+  align-content: center;
+  width: 15rem;
+}
+
+.priceText {
+  font-weight: 800;
+}
+
+.buttonCtn {
+  text-align: right;
+  margin-top: -2rem;
+}
+.buttonRemove {
+  font-size: 0.9rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0 solid orange;
+  background-color: orange;
+  margin: 0;
+}
