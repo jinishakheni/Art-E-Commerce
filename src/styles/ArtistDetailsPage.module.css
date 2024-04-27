@@ -1,0 +1,36 @@
+.artistContainer {
+  margin: -20px;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  color: light-dark(#e6757d, #ffebb2);
+}
+
+.artContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: rem(50);
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  color: light-dark(#e6757d, #ffebb2);
+}
+
+.textButton {
+  color: light-dark(white, white);
+}
+
+.background {
+  align-content: center;
+  background-color: light-dark(#ffebb2, black);
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
