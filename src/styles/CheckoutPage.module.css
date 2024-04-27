@@ -1,0 +1,32 @@
+.cartList {
+  margin: 1rem;
+}
+
+.totalCtn {
+  margin: 1rem 0rem 0rem 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.priceText {
+  display: inline;
+}
+.textCtn {
+  margin-left: 2rem;
+}
+
+.timeline {
+  margin: 8rem 1rem 0rem 4rem;
+  padding-right: 8rem;
+}
+
+.title {
+  color: light-dark(#e6757d, #8644a2);
+}
+
+.root {
+  display: flex;
+  margin: 4rem;
+  min-height: 64vh;
+}
