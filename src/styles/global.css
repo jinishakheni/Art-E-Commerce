@@ -1,0 +1,6 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: light-dark(#ffebb2, black);
+  min-height: calc(100vh - 124px);
+}
