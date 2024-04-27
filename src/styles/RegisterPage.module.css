@@ -1,0 +1,16 @@
+.background {
+  height: 100%;
+  width: 100%;
+  min-height: calc(100vh - 84px);
+  align-content: center;
+  background-color: #e6757d;
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+}
+
+.buttonText {
+  color: #ffebb2;
+}
