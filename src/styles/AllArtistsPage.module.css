@@ -1,0 +1,16 @@
+.background {
+  margin-top: 3rem;
+  align-content: center;
+  background-color: light-dark(#ffebb2, black);
+  padding-bottom: 2em;
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  color: light-dark(#e6757d, #ffebb2);
+}
+
+.gridCtn {
+  min-height: 100vh;
+}
