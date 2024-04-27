@@ -11,10 +11,10 @@ import {
   rem,
 } from "@mantine/core";
 import { IconArrowLeft } from "@tabler/icons-react";
-import classes from "../styles/ForgotPassword.module.css";
+import classes from "../styles/ForgotPasswordPage.module.css";
 import { Link } from "react-router-dom";
 
-export function ForgotPassword() {
+const ForgotPasswordPage = () => {
   return (
     <div className={classes.background}>
       <Container size={460} my={30}>
@@ -62,6 +62,6 @@ export function ForgotPassword() {
       </Container>
     </div>
   );
-}
+};
 
-export default ForgotPassword;
+export default ForgotPasswordPage;

@@ -1,0 +1,42 @@
+.gridContainer {
+  margin: var(--mantine-spacing-md);
+}
+
+.card {
+  color: light-dark(black, white);
+}
+
+.cardImageContainer {
+  height: 75%;
+  position: relative;
+}
+
+.cardImage {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cardImage:hover,
+.cardImage:focus {
+  transform: translate(-50%, -50%) scale(1.05); /* Scale up the image on hover or focus */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+    background-color: light-dark(black, orange);
+    color: light-dark(white, black);
+  }
+}

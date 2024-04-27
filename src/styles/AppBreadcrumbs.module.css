@@ -1,0 +1,12 @@
+.root {
+  background-color: light-dark(#ffebb2, black);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  color: light-dark(#e6757d, #ffebb2);
+  background-color: light-dark(#ffebb2, black);
+}
