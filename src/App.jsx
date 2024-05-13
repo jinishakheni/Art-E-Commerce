@@ -5,7 +5,6 @@ import Layout from "/src/components/Layout";
 import AllPaintingsPage from "./pages/AllPaintingsPage";
 import AllArtistsPage from "./pages/AllArtistsPage";
 import PaintingDetailsPage from "./pages/PaintingDetailsPage";
-import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import CheckoutPage from "./pages/CheckoutPage";
@@ -25,7 +24,6 @@ function App() {
               <Route path="/forgotpassword" element={<ForgotPasswordPage />} />
               <Route path="/arts" element={<AllPaintingsPage />} />
               <Route path="/artists" element={<AllArtistsPage />} />
-              <Route path="/about" element={<AboutPage />} />
               <Route path="/arts/:artId" element={<PaintingDetailsPage />} />
               <Route path="/users/:userId" element={<ArtistDetailsPage />} />
               <Route path="/checkout/:userId" element={<CheckoutPage />} />
